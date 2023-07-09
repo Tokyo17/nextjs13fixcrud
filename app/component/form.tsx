@@ -37,12 +37,7 @@ export default function Form({color,handleColor,textButton,isLoading,sendHandler
         // console.log(newColor)
         setSlectColor(newColor)
     }
-    useEffect(()=>{
-        console.log("color: ",color)
-        if(color){
-            colorHandler(2,"#FFD4AA")
-        }
-    },[])
+
     
     return(
     <form onSubmit={sendHandler} >

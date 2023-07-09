@@ -65,7 +65,6 @@ export default function Update({params}:{params:{id:string}}){
     }
 
     useEffect(()=>{
-        // console.log(id)
         getData()
     },[])
 
