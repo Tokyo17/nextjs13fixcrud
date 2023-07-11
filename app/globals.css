@@ -52,12 +52,12 @@ body{
 .title-item span{
   margin-right: 6px;
   font-weight: 500;
-  font-family: cursive;
+  font-family: serif;
   cursor: pointer;
 }
 
 .bingkai p{
-  font-family: math;
+  font-family:sans-serif;
   height: 110px;
   text-align: justify;
 }
